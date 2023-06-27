@@ -1,0 +1,8 @@
+print("ingrese la base del trinagulo ")
+base_triangulo = input()
+base_triangulo_entero = int(base_triangulo)
+print("ingrese la altura del triangulo ")
+altura_triangulo = input()
+altura_triangulo_entero = int(altura_triangulo)
+area_triangulo = ((base_triangulo_entero * altura_triangulo_entero) / 2)
+print(area_triangulo)
